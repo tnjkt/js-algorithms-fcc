@@ -5,7 +5,6 @@ function smallestCommons(arr) {
   for (let i = sorted[0]; i <= sorted[1]; i++) {
     newArr.push(i);
   }
-  console.log(newArr);
 
   let num = 1;
   const divides = (currNum) => num % currNum === 0;
